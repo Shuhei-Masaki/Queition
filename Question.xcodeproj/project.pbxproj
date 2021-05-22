@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A818EB1B25C59E1B0006F0A7 /* Pods_Question.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02E1CA82883ABA8F097B262B /* Pods_Question.framework */; };
+		A826797B25C6C99A0043CFEC /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A826797A25C6C99A0043CFEC /* GoogleAppMeasurement.framework */; };
+		A83C4C2C25C3A1CD00A80FA9 /* QuestionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83C4C2B25C3A1CD00A80FA9 /* QuestionApp.swift */; };
+		A83C4C2E25C3A1CD00A80FA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83C4C2D25C3A1CD00A80FA9 /* ContentView.swift */; };
+		A83C4C3025C3A1CE00A80FA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83C4C2F25C3A1CE00A80FA9 /* Assets.xcassets */; };
+		A83C4C3C25C3A25300A80FA9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A83C4C3B25C3A25300A80FA9 /* GoogleService-Info.plist */; };
+		A83C4C6325C3A54100A80FA9 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83C4C6225C3A54100A80FA9 /* ActivityIndicator.swift */; };
+		A83C4C6625C3A55600A80FA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83C4C6525C3A55600A80FA9 /* ViewController.swift */; };
+		A83C4C6A25C3A5A600A80FA9 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83C4C6925C3A5A600A80FA9 /* SettingView.swift */; };
+		A83C4C6E25C3A5DD00A80FA9 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83C4C6D25C3A5DD00A80FA9 /* LoadingView.swift */; };
+		A83C4C7125C3A60400A80FA9 /* ServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83C4C7025C3A60400A80FA9 /* ServiceView.swift */; };
+		A83C4C7425C3A6A800A80FA9 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83C4C7325C3A6A800A80FA9 /* SplashView.swift */; };
+		A83C4C7725C3A6D000A80FA9 /* AnswerCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83C4C7625C3A6D000A80FA9 /* AnswerCheckView.swift */; };
+		A83C4C7A25C3A70700A80FA9 /* ListModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83C4C7925C3A70700A80FA9 /* ListModelView.swift */; };
+		A83C4C7D25C3A88C00A80FA9 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83C4C7C25C3A88C00A80FA9 /* ListView.swift */; };
+		A83C4C8025C3A8D800A80FA9 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83C4C7F25C3A8D800A80FA9 /* QuestionView.swift */; };
+		A83C4C8325C3A94700A80FA9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83C4C8225C3A94700A80FA9 /* HomeView.swift */; };
+		A83C4C8925C3AE5B00A80FA9 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83C4C8825C3AE5B00A80FA9 /* RegisterView.swift */; };
+		A83C4C8C25C3AE9B00A80FA9 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83C4C8B25C3AE9B00A80FA9 /* SignInView.swift */; };
+		A89D88A32613157500B07F96 /* AnonymousView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89D88A22613157500B07F96 /* AnonymousView.swift */; };
+		A8CE163525D56FF800B1C247 /* MyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE163425D56FF800B1C247 /* MyListView.swift */; };
+		A8CE163825DBA1EF00B1C247 /* MyListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CE163725DBA1EF00B1C247 /* MyListModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02E1CA82883ABA8F097B262B /* Pods_Question.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Question.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CE3BFD603D09E7F37EBD5E /* Pods-Question.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Question.debug.xcconfig"; path = "Target Support Files/Pods-Question/Pods-Question.debug.xcconfig"; sourceTree = "<group>"; };
+		A826797A25C6C99A0043CFEC /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppMeasurement.framework; path = "../../../Downloads/GoogleMobileAdsSdkiOS-7.69.0/GoogleAppMeasurement.framework"; sourceTree = "<group>"; };
+		A83C4C2825C3A1CD00A80FA9 /* Question.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Question.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83C4C2B25C3A1CD00A80FA9 /* QuestionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionApp.swift; sourceTree = "<group>"; };
+		A83C4C2D25C3A1CD00A80FA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A83C4C2F25C3A1CE00A80FA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A83C4C3425C3A1CE00A80FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A83C4C3B25C3A25300A80FA9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A83C4C6225C3A54100A80FA9 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		A83C4C6525C3A55600A80FA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A83C4C6925C3A5A600A80FA9 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		A83C4C6D25C3A5DD00A80FA9 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		A83C4C7025C3A60400A80FA9 /* ServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceView.swift; sourceTree = "<group>"; };
+		A83C4C7325C3A6A800A80FA9 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		A83C4C7625C3A6D000A80FA9 /* AnswerCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerCheckView.swift; sourceTree = "<group>"; };
+		A83C4C7925C3A70700A80FA9 /* ListModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModelView.swift; sourceTree = "<group>"; };
+		A83C4C7C25C3A88C00A80FA9 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		A83C4C7F25C3A8D800A80FA9 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		A83C4C8225C3A94700A80FA9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A83C4C8825C3AE5B00A80FA9 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		A83C4C8B25C3AE9B00A80FA9 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		A89D88A22613157500B07F96 /* AnonymousView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnonymousView.swift; sourceTree = "<group>"; };
+		A8CE163425D56FF800B1C247 /* MyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListView.swift; sourceTree = "<group>"; };
+		A8CE163725DBA1EF00B1C247 /* MyListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListModel.swift; sourceTree = "<group>"; };
+		DDA0D4AB44FD8F059C8D2865 /* Pods-Question.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Question.release.xcconfig"; path = "Target Support Files/Pods-Question/Pods-Question.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A83C4C2525C3A1CD00A80FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A818EB1B25C59E1B0006F0A7 /* Pods_Question.framework in Frameworks */,
+				A826797B25C6C99A0043CFEC /* GoogleAppMeasurement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77885608DCA48262591E640B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2CE3BFD603D09E7F37EBD5E /* Pods-Question.debug.xcconfig */,
+				DDA0D4AB44FD8F059C8D2865 /* Pods-Question.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A83C4C1F25C3A1CD00A80FA9 = {
+			isa = PBXGroup;
+			children = (
+				A83C4C2A25C3A1CD00A80FA9 /* Question */,
+				A83C4C2925C3A1CD00A80FA9 /* Products */,
+				77885608DCA48262591E640B /* Pods */,
+				F99167DF028D79A877CB22A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A83C4C2925C3A1CD00A80FA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A83C4C2825C3A1CD00A80FA9 /* Question.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A83C4C2A25C3A1CD00A80FA9 /* Question */ = {
+			isa = PBXGroup;
+			children = (
+				A83C4C4B25C3A31900A80FA9 /* Model */,
+				A83C4C4C25C3A34300A80FA9 /* View */,
+				A83C4C2F25C3A1CE00A80FA9 /* Assets.xcassets */,
+				A83C4C3425C3A1CE00A80FA9 /* Info.plist */,
+				A83C4C3B25C3A25300A80FA9 /* GoogleService-Info.plist */,
+			);
+			path = Question;
+			sourceTree = "<group>";
+		};
+		A83C4C4B25C3A31900A80FA9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A83C4C2B25C3A1CD00A80FA9 /* QuestionApp.swift */,
+				A83C4C6225C3A54100A80FA9 /* ActivityIndicator.swift */,
+				A83C4C6525C3A55600A80FA9 /* ViewController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A83C4C4C25C3A34300A80FA9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A83C4C6825C3A58300A80FA9 /* SubView */,
+				A83C4C2D25C3A1CD00A80FA9 /* ContentView.swift */,
+				A83C4C7925C3A70700A80FA9 /* ListModelView.swift */,
+				A83C4C7C25C3A88C00A80FA9 /* ListView.swift */,
+				A83C4C7F25C3A8D800A80FA9 /* QuestionView.swift */,
+				A83C4C8225C3A94700A80FA9 /* HomeView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A83C4C6825C3A58300A80FA9 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				A83C4C6925C3A5A600A80FA9 /* SettingView.swift */,
+				A83C4C6D25C3A5DD00A80FA9 /* LoadingView.swift */,
+				A83C4C7025C3A60400A80FA9 /* ServiceView.swift */,
+				A83C4C7325C3A6A800A80FA9 /* SplashView.swift */,
+				A83C4C7625C3A6D000A80FA9 /* AnswerCheckView.swift */,
+				A83C4C8825C3AE5B00A80FA9 /* RegisterView.swift */,
+				A89D88A22613157500B07F96 /* AnonymousView.swift */,
+				A83C4C8B25C3AE9B00A80FA9 /* SignInView.swift */,
+				A8CE163425D56FF800B1C247 /* MyListView.swift */,
+				A8CE163725DBA1EF00B1C247 /* MyListModel.swift */,
+			);
+			name = SubView;
+			sourceTree = "<group>";
+		};
+		F99167DF028D79A877CB22A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A826797A25C6C99A0043CFEC /* GoogleAppMeasurement.framework */,
+				02E1CA82883ABA8F097B262B /* Pods_Question.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A83C4C2725C3A1CD00A80FA9 /* Question */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83C4C3725C3A1CE00A80FA9 /* Build configuration list for PBXNativeTarget "Question" */;
+			buildPhases = (
+				D8478A008E96687F4D51A03D /* [CP] Check Pods Manifest.lock */,
+				A83C4C2425C3A1CD00A80FA9 /* Sources */,
+				A83C4C2525C3A1CD00A80FA9 /* Frameworks */,
+				A83C4C2625C3A1CD00A80FA9 /* Resources */,
+				539ADA4C3871820CE4BA6649 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Question;
+			productName = Question;
+			productReference = A83C4C2825C3A1CD00A80FA9 /* Question.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A83C4C2025C3A1CD00A80FA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					A83C4C2725C3A1CD00A80FA9 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = A83C4C2325C3A1CD00A80FA9 /* Build configuration list for PBXProject "Question" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A83C4C1F25C3A1CD00A80FA9;
+			productRefGroup = A83C4C2925C3A1CD00A80FA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A83C4C2725C3A1CD00A80FA9 /* Question */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A83C4C2625C3A1CD00A80FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83C4C3025C3A1CE00A80FA9 /* Assets.xcassets in Resources */,
+				A83C4C3C25C3A25300A80FA9 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		539ADA4C3871820CE4BA6649 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Question/Pods-Question-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Question/Pods-Question-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Question/Pods-Question-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8478A008E96687F4D51A03D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Question-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A83C4C2425C3A1CD00A80FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83C4C2E25C3A1CD00A80FA9 /* ContentView.swift in Sources */,
+				A83C4C7725C3A6D000A80FA9 /* AnswerCheckView.swift in Sources */,
+				A83C4C8325C3A94700A80FA9 /* HomeView.swift in Sources */,
+				A83C4C8925C3AE5B00A80FA9 /* RegisterView.swift in Sources */,
+				A89D88A32613157500B07F96 /* AnonymousView.swift in Sources */,
+				A83C4C7A25C3A70700A80FA9 /* ListModelView.swift in Sources */,
+				A83C4C7425C3A6A800A80FA9 /* SplashView.swift in Sources */,
+				A83C4C8025C3A8D800A80FA9 /* QuestionView.swift in Sources */,
+				A83C4C6A25C3A5A600A80FA9 /* SettingView.swift in Sources */,
+				A8CE163525D56FF800B1C247 /* MyListView.swift in Sources */,
+				A8CE163825DBA1EF00B1C247 /* MyListModel.swift in Sources */,
+				A83C4C7125C3A60400A80FA9 /* ServiceView.swift in Sources */,
+				A83C4C8C25C3AE9B00A80FA9 /* SignInView.swift in Sources */,
+				A83C4C6325C3A54100A80FA9 /* ActivityIndicator.swift in Sources */,
+				A83C4C6625C3A55600A80FA9 /* ViewController.swift in Sources */,
+				A83C4C7D25C3A88C00A80FA9 /* ListView.swift in Sources */,
+				A83C4C2C25C3A1CD00A80FA9 /* QuestionApp.swift in Sources */,
+				A83C4C6E25C3A5DD00A80FA9 /* LoadingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A83C4C3525C3A1CE00A80FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A83C4C3625C3A1CE00A80FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A83C4C3825C3A1CE00A80FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2CE3BFD603D09E7F37EBD5E /* Pods-Question.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 39PAGQ55UD;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.xcframework/ios-arm64_i386_x86_64-simulator",
+					"$(PROJECT_DIR)/Pods/GoogleAppMeasurement",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods/GoogleAppMeasurement/Frameworks/GoogleAppMeasurement.xcframework/ios-arm64_i386_x86_64-simulator",
+					"$(PROJECT_DIR)/Pods/GoogleAppMeasurement/Frameworks/GoogleAppMeasurement.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/Pods/GoogleAppMeasurement/Frameworks",
+				);
+				INFOPLIST_FILE = Question/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MARKETING_VERSION = 1.20;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseAuth\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseFirestore\"",
+					"-framework",
+					"\"FirebaseInstallations\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleDataTransport\"",
+					"-framework",
+					"\"GoogleMobileAds\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UserMessagingPlatform\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"absl\"",
+					"-framework",
+					"\"grpc\"",
+					"-framework",
+					"\"grpcpp\"",
+					"-framework",
+					"\"leveldb\"",
+					"-framework",
+					"\"nanopb\"",
+					"-framework",
+					"\"openssl_grpc\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"JavaScriptCore\"",
+					"-weak_framework",
+					"\"SafariServices\"",
+					"-weak_framework",
+					"\"WebKit\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shu14.nico0716.Question;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A83C4C3925C3A1CE00A80FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDA0D4AB44FD8F059C8D2865 /* Pods-Question.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 39PAGQ55UD;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/Pods/Google-Mobile-Ads-SDK/Frameworks/GoogleMobileAdsFramework-Current/GoogleMobileAds.xcframework/ios-arm64_i386_x86_64-simulator",
+					"$(PROJECT_DIR)/Pods/GoogleAppMeasurement",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods/GoogleAppMeasurement/Frameworks/GoogleAppMeasurement.xcframework/ios-arm64_i386_x86_64-simulator",
+					"$(PROJECT_DIR)/Pods/GoogleAppMeasurement/Frameworks/GoogleAppMeasurement.xcframework/ios-arm64_armv7",
+					"$(PROJECT_DIR)/Pods/GoogleAppMeasurement/Frameworks",
+				);
+				INFOPLIST_FILE = Question/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MARKETING_VERSION = 1.20;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreVideo\"",
+					"-framework",
+					"\"FBLPromises\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseAuth\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseFirestore\"",
+					"-framework",
+					"\"FirebaseInstallations\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GTMSessionFetcher\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleDataTransport\"",
+					"-framework",
+					"\"GoogleMobileAds\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UserMessagingPlatform\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"absl\"",
+					"-framework",
+					"\"grpc\"",
+					"-framework",
+					"\"grpcpp\"",
+					"-framework",
+					"\"leveldb\"",
+					"-framework",
+					"\"nanopb\"",
+					"-framework",
+					"\"openssl_grpc\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"JavaScriptCore\"",
+					"-weak_framework",
+					"\"SafariServices\"",
+					"-weak_framework",
+					"\"WebKit\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shu14.nico0716.Question;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A83C4C2325C3A1CD00A80FA9 /* Build configuration list for PBXProject "Question" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83C4C3525C3A1CE00A80FA9 /* Debug */,
+				A83C4C3625C3A1CE00A80FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83C4C3725C3A1CE00A80FA9 /* Build configuration list for PBXNativeTarget "Question" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83C4C3825C3A1CE00A80FA9 /* Debug */,
+				A83C4C3925C3A1CE00A80FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A83C4C2025C3A1CD00A80FA9 /* Project object */;
+}
